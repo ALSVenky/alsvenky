@@ -152,7 +152,7 @@ https://wpt.fyi/results/css/css-text-decor */
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,255,255,0.6);
+  background: rgba(114, 212, 248, 0.6);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -171,7 +171,7 @@ https://wpt.fyi/results/css/css-text-decor */
 .fh5co-cover .display-tc h3 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #fff;
 }
 #fh5co-header .display-tc h1,
 .fh5co-cover .display-tc h1 {
@@ -241,7 +241,8 @@ https://wpt.fyi/results/css/css-text-decor */
 }
 #fh5co-header .display-tc h3,
 .fh5co-cover .display-tc h3 {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 250;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h3,
@@ -266,7 +267,7 @@ https://wpt.fyi/results/css/css-text-decor */
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
-  color: #fff;
+  color: rgb(19, 136, 8);
 }
 #fh5co-header .display-tc .fh5co-social-icons li a i,
 .fh5co-cover .display-tc .fh5co-social-icons li a i {
@@ -1126,7 +1127,7 @@ input[type="text"] {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgb(245, 29, 29);
+  background: #c5c6c7;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 50%;
@@ -1176,9 +1177,10 @@ input[type="text"] {
   color: #fff;
   border: 2px solid rgb(0, 255, 255,0.8);
 }
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  background: #FFB5B5 !important;
+  border-color: #FFB5B5 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
